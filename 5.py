@@ -1,5 +1,5 @@
 def main():
-    with open("words.txt", encoding="utf-8") as a:
+    with open("lines.txt", encoding="utf-8") as a:
         b = 0
         for line in a:
             b += len(line)
